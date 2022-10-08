@@ -1,0 +1,70 @@
+/* Estilo da fonte da página */
+
+body {
+    font-family: Montserrat, serif;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+    background: linear-gradient( #FEFEFE, #888888);
+    /*background: #BBBBBB;*/
+    padding: 20px 0;
+}
+
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+/* Itens do Menu Inicial */
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    background: url('../img/produtos/bg.jpg');
+    padding: 40px 0 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+/* MediaQuery - Responsivel */
+
+@media screen and (max-width: 480px) {
+
+    /* cria um estilo para midia que tem a largura máxima de 480px */
+    .caixa {
+        width: auto;
+    }
+}
